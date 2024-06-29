@@ -35,6 +35,9 @@ a:hover {
 .project_heading_sub_space {
     margin-bottom: 2em;
 }
+.project_heading_mixed {
+    font-weight: 400;
+}
 
 .captions {
     font-size: 18px;
