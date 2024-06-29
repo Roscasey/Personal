@@ -1,0 +1,144 @@
+@import "../component-styles/nav-bar-styles.css";
+@import "../variables/colors.css";
+@import "../variables/typography.css";
+
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.welcome_msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10em;
+}
+.welcome_msg h1, h3 {
+    font-weight: 300;
+    margin: 15px;
+}
+.welcome_msg h1 {
+    font-size: 80px;
+}
+#ux_box {
+    border: solid;
+    border-width: 2px;
+    border-radius: 40px;
+
+    padding-right: 25px;
+    padding-left: 20px;
+}
+
+
+.tech_stack {
+    height: 35px
+}
+#tech_icons {
+    margin-top: 5em;
+    margin-bottom: 11em;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 4s;
+}
+
+
+.about_me {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    padding-bottom: 10em;
+}
+.about_info {
+    grid-column: 2/3;
+}
+.about_text {
+    display: flex;
+    flex-direction: column;
+}
+.about_text p {
+    font-size: 25px;
+}
+
+
+
+#casey_pic {
+    border-radius: 30px;
+    width: 25em;
+    height: 18em;
+    margin-right: 3em;
+}
+.casey_info {
+    display: flex;
+}
+
+
+
+
+.project_overview {
+    display: flex;
+    flex-direction: column;
+}
+.project_info {
+    display: grid;
+    grid-template-columns: 0.4fr 3fr 0.4fr;
+    padding-bottom: 8em;
+}
+.project_screens {
+    display: flex;
+    flex-direction: row;
+}
+.project_screens div + div {
+    margin-left: 8em;
+}
+.project_box {
+    display: flex;
+    flex-direction: column;
+}
+.project_box p {
+    text-align: left;
+}
+.project_box a {
+    margin-top: 2em;
+}
+.project_head {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.underline_box {
+    width: 25em;
+    margin-bottom: 4em;
+}
+.project_head img {
+    width: 100%;
+}
+
+.bottom_hr {
+    width: 70em;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer_info {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+}
+
+.email_box {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.email_box:hover {
+    width: 22px;
+    height: 22px;
+}
+.email_box a > img {
+    width: 100%;
+}

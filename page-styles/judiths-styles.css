@@ -1,0 +1,70 @@
+@import "../component-styles/nav-bar-styles.css";
+@import "../variables/colors.css";
+@import "../variables/typography.css";
+@import "../component-styles/project-styles.css";
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    font-weight: 400;
+    font-size: 20px;
+}
+.j_header_box {
+    width: 20em;
+}
+.j_header_box img {
+    width: 100%;
+}
+
+
+
+.pov_captions {
+    display: flex;
+}
+.pov_captions p + p {
+    margin-left: 18.75em;
+}
+.jprob_captions {
+    display: flex;
+}
+.jprob_captions p + p {
+    margin-left: 21.3em;
+}
+
+
+
+.cupcake_list {
+    width: 30px;
+    height: 30px;
+}
+.impact_items {
+    display: flex;
+    align-items: baseline;
+}
+.impact_items p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.project_heading_mixed {
+    font-weight: 400;
+}
+.j_story_img {
+    width: 55em;
+    margin-top: 3em;
+}
+.j_story_img img {
+    width: 100%
+}
+
+
+.j_sb_captions {
+    display: flex;
+}
+.j_sb_captions p + p {
+    margin-left: 6em;
+}

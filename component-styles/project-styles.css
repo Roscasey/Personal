@@ -1,0 +1,14 @@
+.section_hr {
+    width: 55em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.project_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section, .section_hr {
+    grid-column: 2/3;
+}

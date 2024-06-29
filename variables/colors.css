@@ -1,0 +1,39 @@
+:root {
+    --body-color: #FBF8F1; 
+    --text-accent: #D74619;
+    --default-color: #000000;
+
+    --judith-main: #BA5C67;
+    --nibbles-main: #2A586B;
+
+    --page-color: var(--body-color);
+
+    --color-primary: var(--default-color);  
+    --color-secondary: var(--text-accent);
+
+    --judith-color: var(--judith-main);
+    --nibbles-color: var(--nibbles-main);
+    
+}
+body {
+    background-color: var(--page-color);
+}
+.accent {
+    color: var(--text-accent);
+}
+
+
+a {
+    color: var(--default-color);
+}
+a:hover {
+    color: var(--text-accent);
+}
+
+
+.judith_head {
+    color: var(--judith-color);
+}
+.nibbles_head {
+    color: var(--nibbles-color);
+}
