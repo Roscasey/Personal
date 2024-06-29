@@ -100,6 +100,7 @@
 .project_box a {
     margin-top: 2em;
 }
+
 .project_head {
     display: flex;
     flex-direction: column;
