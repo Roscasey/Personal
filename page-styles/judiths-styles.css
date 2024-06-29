@@ -68,3 +68,10 @@ header h1 {
 .j_sb_captions p + p {
     margin-left: 6em;
 }
+
+.frames_label {
+    display: flex;
+}
+.frames_label p + p {
+    margin-left: 26em;
+}
