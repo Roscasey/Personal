@@ -12,3 +12,20 @@
 section, .section_hr {
     grid-column: 2/3;
 }
+
+.persona_img {
+    width: 20em;
+}
+.persona_img img {
+    width: 100%;
+}
+.persona_card  {
+    display: flex;
+    flex-direction: column;
+}
+.persona_box {
+    display: flex;
+}
+.persona_box div + div {
+    margin-left: 13em;
+}

@@ -72,3 +72,12 @@ header h1 {
 .frames_label p + p {
     margin-left: 26em;
 }
+
+
+.pink_arrow {
+    display: flex;
+    justify-content: center;
+}
+.testing_trends li {
+    margin-bottom: 1em;
+}
