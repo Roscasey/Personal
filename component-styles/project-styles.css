@@ -9,9 +9,11 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+
 section, .section_hr {
     grid-column: 2/3;
 }
+
 
 .persona_img {
     width: 20em;
@@ -40,4 +42,17 @@ section, .section_hr {
 }
 .color_p_img img {
     width: 100%;
+}
+
+
+.page_design_img {
+    width: 22em;
+}
+.page_design_img img{
+    width: 100%;
+}
+
+
+.section_space_within {
+    margin-bottom: 4em;
 }

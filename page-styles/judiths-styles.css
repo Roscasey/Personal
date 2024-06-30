@@ -20,7 +20,6 @@ header h1 {
 }
 
 
-
 .pov_captions {
     display: flex;
 }
@@ -33,7 +32,6 @@ header h1 {
 .jprob_captions p + p {
     margin-left: 21.3em;
 }
-
 
 
 .cupcake_list {
@@ -50,7 +48,6 @@ header h1 {
 }
 
 
-
 .j_story_img {
     width: 55em;
     margin-top: 3em;
@@ -58,7 +55,6 @@ header h1 {
 .j_story_img img {
     width: 100%
 }
-
 
 
 .j_sb_captions {
@@ -76,7 +72,6 @@ header h1 {
 }
 
 
-
 .pink_arrow {
     display: flex;
     justify-content: center;
@@ -84,8 +79,6 @@ header h1 {
 .list_spacing li {
     margin-bottom: 1em;
 }
-
-
 
 
 .og_j_logo {
@@ -104,7 +97,6 @@ header h1 {
 }
 
 
-
 .j_logo_bare {
     width: 12em;
 }
@@ -118,7 +110,6 @@ header h1 {
 
 .j_color_palette div + div {
     margin-top: 2em;
-
 }
 .colour_p_box {
     display: flex;
@@ -128,4 +119,48 @@ header h1 {
 .colour_p_box div + div {
     margin-left: 6em;
     margin-top: 0%;
+}
+
+
+.j_type_combo {
+    display: flex;
+}
+.j_type_combo div + div {
+    margin-right: 6em;
+}
+.j_type_box div + div {
+    margin-top: 4em;
+}
+.j_type_exp p + p {
+    margin-top: 4.5em;
+}
+
+
+.home_about_designs {
+    display: flex;
+}
+.home_about_designs div + div {
+    margin-left: 12em;
+}
+.main_page_designs > div + div {
+    margin-top: 4em;
+}
+
+
+.j_product_listings {
+    display: flex;
+}
+.j_product_listings > div + div {
+    margin-left: 12em;
+}
+.j_product_variations div + div {
+    margin-top: 4em;
+}
+
+
+.j_payment_section {
+    display: flex;
+}
+.j_payment_section > div + div {
+    margin-left: 12em;
 }
