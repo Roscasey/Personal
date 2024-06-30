@@ -29,3 +29,15 @@ section, .section_hr {
 .persona_box div + div {
     margin-left: 13em;
 }
+
+.numbered_list {
+    list-style: decimal;
+}
+
+
+.color_p_img {
+    width: 6em;
+}
+.color_p_img img {
+    width: 100%;
+}

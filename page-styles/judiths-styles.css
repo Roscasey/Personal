@@ -50,6 +50,7 @@ header h1 {
 }
 
 
+
 .j_story_img {
     width: 55em;
     margin-top: 3em;
@@ -57,6 +58,7 @@ header h1 {
 .j_story_img img {
     width: 100%
 }
+
 
 
 .j_sb_captions {
@@ -74,10 +76,56 @@ header h1 {
 }
 
 
+
 .pink_arrow {
     display: flex;
     justify-content: center;
 }
-.testing_trends li {
+.list_spacing li {
     margin-bottom: 1em;
+}
+
+
+
+
+.og_j_logo {
+    width: 10em;
+}
+.og_j_logo img {
+    width: 100%;
+}
+
+.j_logo_cap {
+    display: flex;
+    align-items: center;
+}
+.j_logo_cap div + p {
+    margin-left: 11.5em;
+}
+
+
+
+.j_logo_bare {
+    width: 12em;
+}
+.j_logo_bare img {
+    width: 100%;
+}
+.j_goal_list h2 + div {
+    margin-left: 10em;
+}
+
+
+.j_color_palette div + div {
+    margin-top: 2em;
+
+}
+.colour_p_box {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.colour_p_box div + div {
+    margin-left: 6em;
+    margin-top: 0%;
 }
