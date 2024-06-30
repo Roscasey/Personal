@@ -164,3 +164,8 @@ header h1 {
 .j_payment_section > div + div {
     margin-left: 12em;
 }
+
+
+.j_summary > div + div {
+    margin-top: 4em;
+}
