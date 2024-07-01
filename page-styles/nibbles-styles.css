@@ -36,3 +36,12 @@ section, .section_hr {
 .n_storyboard img {
     width: 100%;
 }
+
+
+.n_wireframe_set {
+    display: flex;
+    justify-content: center;
+}
+.n_wireframe_set > div + div {
+    margin-left: 13em;
+}
