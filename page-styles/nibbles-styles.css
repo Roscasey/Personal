@@ -1,0 +1,38 @@
+@import "../component-styles/nav-bar-styles.css";
+@import "../variables/colors.css";
+@import "../variables/typography.css";
+@import "../component-styles/project-styles.css";
+
+.n_header_box {
+    width: 15em;
+}
+.n_header_box img {
+    width: 100%;
+}
+
+
+.n_project_grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+section, .section_hr {
+    grid-column: 2/3;
+}
+
+
+.n_storyboards {
+    display: flex;
+    flex-direction: row;
+}
+.n_storyboards div + div {
+    margin-left: 13.5em;
+}
+.n_storyboard {
+    width: 20em;
+}
+.n_sb2 {
+    width: 21.1em;
+}
+.n_storyboard img {
+    width: 100%;
+}
