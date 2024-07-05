@@ -11,6 +11,7 @@
     width: 100%;
 }
 
+
 .c_project_grid {
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
@@ -22,18 +23,10 @@
     display: flex;
     align-items: center;
 }
-.success_tick_box {
-    width: 25px;
-}
-.success_tick_box img {
-    width: 100%;
-}
-
 
 
 .dp_img {
     width: 25em;
-
 }
 .dp_img img {
     width: 100%;
@@ -65,9 +58,39 @@
 }
 
 
+.art_directions img {
+    width: 100%;
+}
 .chosen_wireframe {
     width: 55em;
 }
 .chosen_wireframe img {
+    width: 100%;
+}
+.chosen_direction {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.implementation p {
+    display: flex;
+    justify-content: center;
+}
+.implementation_pic {
+    width: 55em;
+}
+.implementation_pic img {
+    width: 100%;
+}
+
+
+.high-fidelity_img img {
+    width: 100%;
+}
+.new_design {
+    width: 25em;
+}
+.new_design img {
     width: 100%;
 }
