@@ -74,9 +74,6 @@ section, .section_hr {
     display: flex;
     justify-content: center;
 }
-.list_spacing li {
-    margin-bottom: 1em;
-}
 
 
 .og_j_logo {

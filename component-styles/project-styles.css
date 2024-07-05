@@ -35,6 +35,9 @@ header h1 {
 .numbered_list {
     list-style: decimal;
 }
+.list_spacing li {
+    margin-bottom: 1em;
+}
 
 
 .color_p_img {

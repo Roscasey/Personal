@@ -45,3 +45,59 @@ section, .section_hr {
 .n_wireframe_set > div + div {
     margin-left: 13em;
 }
+
+
+.blue_arrow {
+    display: flex;
+    justify-content: center;
+}
+
+
+.branding {
+    display: flex;
+    flex-direction: column;
+}
+.n_des {
+    align-self: center;
+}
+.branding > div {
+    width: 70%;
+    display: flex;
+    justify-self: center;
+}
+.branding > div > img {
+    width: 100%;
+}
+
+
+
+.typography {
+    display: flex;
+    flex-direction: column;
+}
+.n_type {
+    width: 40em;
+    align-self: center;
+}
+.n_type img {
+    width: 100%;
+}
+
+.hi_fi_section > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.participant_feedback {
+    display: flex;
+    flex-direction: column;
+}
+.feedback_img {
+    align-self: center;
+    width: 45em;
+}
+.feedback_img img {
+    width: 100%;
+}
