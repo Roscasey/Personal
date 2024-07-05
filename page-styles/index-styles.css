@@ -106,6 +106,15 @@
     flex-direction: column;
 }
 
+.project_box_hzl {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+.project_box_hzl img + div {
+    margin-left: 2em;
+}
+
 
 .underline_box {
     width: 25em;
