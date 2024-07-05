@@ -5,6 +5,7 @@
 
     --judith-main: #BA5C67;
     --nibbles-main: #2A586B;
+    --charity-main: #B31629;
 
     --page-color: var(--body-color);
 
@@ -13,6 +14,7 @@
 
     --judith-color: var(--judith-main);
     --nibbles-color: var(--nibbles-main);
+    --charity-color: var(--charity-main);
     
 }
 body {
@@ -36,4 +38,7 @@ a:hover {
 }
 .nibbles_head {
     color: var(--nibbles-color);
+}
+.charity_head {
+    color: var(--charity-color);
 }

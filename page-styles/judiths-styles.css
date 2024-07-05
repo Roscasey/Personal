@@ -14,9 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-section, .section_hr {
-    grid-column: 2/3;
-}
+
 
 .pov_captions {
     display: flex;

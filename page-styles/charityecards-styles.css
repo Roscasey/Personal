@@ -1,0 +1,73 @@
+@import "../component-styles/nav-bar-styles.css";
+@import "../variables/colors.css";
+@import "../variables/typography.css";
+@import "../component-styles/project-styles.css"; 
+
+
+.c_header_box {
+    width: 30em;
+}
+.c_header_box img {
+    width: 100%;
+}
+
+.c_project_grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+
+
+
+.redesign_obj {
+    display: flex;
+    align-items: center;
+}
+.success_tick_box {
+    width: 25px;
+}
+.success_tick_box img {
+    width: 100%;
+}
+
+
+
+.dp_img {
+    width: 25em;
+
+}
+.dp_img img {
+    width: 100%;
+}
+.dp_box {
+    display: flex;
+    flex-direction: row;
+}
+.dp_box > div + div {
+    margin-left: 5em;
+}
+
+
+
+.inspo_section {
+    display: flex;
+    flex-direction: column;
+}
+.inspo_section div + div {
+    margin-top: 3em;
+}
+
+
+.wireframe_box {
+    width: 50em;
+}
+.wireframe_box img {
+    width: 100%;
+}
+
+
+.chosen_wireframe {
+    width: 55em;
+}
+.chosen_wireframe img {
+    width: 100%;
+}
