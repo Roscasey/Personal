@@ -6,6 +6,7 @@
     --judith-main: #BA5C67;
     --nibbles-main: #2A586B;
     --charity-main: #B31629;
+    --weather-main: #C0CB7F;
 
     --page-color: var(--body-color);
 
@@ -41,4 +42,7 @@ a:hover {
 }
 .charity_head {
     color: var(--charity-color);
+}
+.weather_head {
+    color: var(--weather-main);
 }

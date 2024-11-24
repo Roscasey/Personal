@@ -53,3 +53,8 @@ a:hover {
 .j_impact_statement > div + div {
     margin-top: 5em;
 }
+
+.quotes {
+    font-family: "DM Serif Text", serif;
+    font-size: 30px;
+}

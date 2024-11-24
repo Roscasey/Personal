@@ -19,9 +19,9 @@
 .w_project_grid > * {
     grid-column: 2/3;
 }
+
 .w_project_overview {
-    width: 50em;
-    
+    width: 100%;
 }
 .w_project_overview img {
     width: 100%;
