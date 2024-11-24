@@ -17,7 +17,7 @@
 }
 
 
-.n_storyboards {
+.n_storyboards { 
     display: flex;
     flex-direction: row;
 }
