@@ -1,0 +1,187 @@
+@import "../component-styles/nav-bar-styles.css";
+@import "../variables/colors.css";
+@import "../variables/typography.css";
+@import "../component-styles/project-styles.css"; 
+
+.w_header_box {
+    width: 15em;
+}
+.w_header_box img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+
+.w_project_grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.w_project_grid > * {
+    grid-column: 2/3;
+}
+.w_project_overview {
+    width: 50em;
+    
+}
+.w_project_overview img {
+    width: 100%;
+}
+.w_project_overview p {
+    justify-self: center;
+}
+.w_issue_list {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+
+.rich_pic {
+    width: 100%;
+}
+.rich_pic img{
+    width: 100%;
+}
+
+.w_ideation_process ol {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.w_prelim_ideas {
+    width: 90%;
+    margin-top: 4em;
+}
+.w_prelim_ideas img {
+    width: 100%;
+}
+.w_prelim_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mdc {
+    text-align: center;
+}
+
+
+.relevant_tech > :first-child {
+    text-align: center;
+}
+.rel_tech {
+    margin-top: 4em;
+}
+.rel_tech img {
+    width: 100%;
+}
+
+.w_main_design_concept_des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.w_main_design_concept div + p {
+    margin-bottom: 4em;
+}
+.w_color_scheme {
+    width: 50%;
+}
+.w_color_scheme img {
+    width: 100%;
+}
+
+
+.w_logo {
+    width: 25%;
+}
+.w_logo img{
+    width: 100%;
+}
+
+
+.w_mpd_pages {
+    width: 98%;
+}
+.w_mpd_pages img {
+    width: 100%;
+}
+.w_main_pages h3 {
+    margin-top: 4em;
+}
+.w_mpd_pages_sml {
+    width: 95%;
+}
+.w_mpd_pages_sml img {
+    width: 100%;
+}
+.w_mpd_pages_text {
+    text-align: center;
+}
+
+
+
+.sml_pages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;    
+}
+.sml_pages_box {
+    display: flex;
+    flex-direction: column;
+}
+.sml_pages div + div {
+    margin-left: 2em;
+}
+
+
+.w_user_personas {
+    text-align: center;
+}
+.w_persona_box {
+    width: 100%;
+    margin-top: 3em;
+}
+.w_persona_box img {
+    width: 100%;
+}
+
+
+.w_photo_scenario {
+    display: flex;
+
+    justify-content: center;
+
+}
+.w_photo_scenario_box {
+    width: 80%;
+}
+.w_photo_scenario_box img {
+    width: 100%;
+}
+
+
+.w_obs_eval_list {
+    list-style: circle;
+}
+.w_obs_eval_participants {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.w_obs_eval_participants ol + div {
+    margin-left: 6em;
+}
+
+
+.evidence_box {
+    display: flex;
+}
+.evidence_box div + p {
+    margin-left: 2em;
+}
+.evidence_pic {
+    width: 50em;
+}
+.evidence_pic img {
+    width: 100%;    
+}

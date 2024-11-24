@@ -66,6 +66,7 @@
     width: 25em;
     height: 18em;
     margin-right: 3em;
+    margin-bottom: 2em;
 }
 .casey_info {
     display: flex;
@@ -89,6 +90,9 @@
 }
 .project_screens div + div {
     margin-left: 8em;
+}
+.project_screens + .project_screens {
+    margin-top: 3em;
 }
 .project_box {
     display: flex;
@@ -151,4 +155,9 @@ footer {
 }
 .email_box a > img {
     width: 100%;
+}
+
+.abt_me_box {
+    display: flex;
+    flex-direction: column;
 }
