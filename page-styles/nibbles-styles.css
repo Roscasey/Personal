@@ -15,20 +15,27 @@
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
 }
+.n_project_overview_img {
+    display: flex;
+    justify-content: center;
+}
 
 
 .n_storyboards { 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
-.n_storyboards div + div {
-    margin-left: 13.5em;
-}
+
+
 .n_storyboard {
-    width: 20em;
+    width: 100%;
 }
-.n_sb2 {
-    width: 21.1em;
+.n_storyboard_cap {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 4em;
 }
 .n_storyboard img {
     width: 100%;
@@ -43,6 +50,15 @@
     margin-left: 13em;
 }
 
+
+.n_lo_fi_img {
+    display: flex;
+    justify-content: center;
+}
+
+.n_testing_process {
+    list-style-type: circle;
+}
 
 .blue_arrow {
     display: flex;
