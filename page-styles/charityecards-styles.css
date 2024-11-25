@@ -18,7 +18,10 @@
 }
 
 
-
+.c_overview {
+    text-align: center;
+    margin-top: 4em;
+}
 .redesign_obj {
     display: flex;
     align-items: center;
