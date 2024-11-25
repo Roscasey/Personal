@@ -19,7 +19,7 @@
     margin: 15px;
 }
 .welcome_msg h1 {
-    font-size: 80px;
+    font-size: 80px; 
 }
 #ux_box {
     border: solid;
@@ -29,7 +29,6 @@
     padding-right: 25px;
     padding-left: 20px;
 }
-
 
 .tech_stack {
     height: 35px
@@ -43,9 +42,12 @@
 }
 
 
+
+
+
 .about_me {
     display: grid;
-    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-columns: 0.8fr 3fr 0.5fr;
     padding-bottom: 10em;
 }
 .about_info {
@@ -54,6 +56,7 @@
 .about_text {
     display: flex;
     flex-direction: column;
+    width: 38em;
 }
 .about_text p {
     font-size: 25px;
@@ -73,8 +76,6 @@
 }
 
 
-
-
 .project_overview {
     display: flex;
     flex-direction: column;
@@ -82,43 +83,47 @@
 .project_info {
     display: grid;
     grid-template-columns: 0.4fr 3fr 0.4fr;
-    padding-bottom: 8em;
+    
 }
+
 .project_screens {
     display: flex;
     flex-direction: row;
 }
-.project_screens div + div {
-    margin-left: 8em;
-}
 .project_screens + .project_screens {
-    margin-top: 3em;
+    margin-top: 4em;
 }
-.project_box {
-    display: flex;
-    flex-direction: column;
-}
-.project_box p {
-    text-align: left;
-}
-.project_box a {
-    margin-top: 2em;
-}
+
+
+
 
 .project_head {
     display: flex;
     flex-direction: column;
 }
 
-.project_box_hzl {
-    display: flex;
-    align-items: center;
-    margin-top: 3em;
+.project_img_cover {
+    width: 30em;
 }
-.project_box_hzl img + div {
-    margin-left: 2em;
+.project_img_cover img {
+    width: 100%;
 }
 
+.project_box {
+    width: 30em;
+} 
+.project_box + .project_box {
+    margin-left: 4em;
+}
+
+
+.personal_projects {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
 
 .underline_box {
     width: 25em;
@@ -130,6 +135,7 @@
 
 .bottom_hr {
     width: 70em;
+    margin-top: 4em;
 }
 
 
