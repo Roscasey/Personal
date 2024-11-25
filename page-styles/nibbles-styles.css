@@ -103,7 +103,18 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.hi_img {
+    width: 80%;
+}
+.hi_img img {
+    width: 100%;
+}
+.n_hi_fi_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
 .participant_feedback {
     display: flex;
